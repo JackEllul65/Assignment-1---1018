@@ -62,6 +62,12 @@ main {
     color: black;
     grid-area: main;
 }
+form {
+    display: grid;
+    grid-template-columns: 25% 70%;
+    align-items: center;
+    grid-gap: 0.5em;
+}
 aside {
     background-color: rgb(59, 59, 61);
     grid-area: aside;
