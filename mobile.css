@@ -25,6 +25,13 @@ main {
     background-color: grey;
     grid-area: main;
 }
+form {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    grid-gap: 0.5em;
+    padding: 20px;
+}
 
 footer {
     background-color: rgb(59, 59, 61);
