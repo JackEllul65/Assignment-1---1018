@@ -23,18 +23,8 @@ nav {
     background-color: rgb(59, 59, 61);
     grid-area: nav;
 }
-nav ul ul  {
-    position: absolute;
-    background-color: rgb(59, 59, 61);
-    padding: 0;
-    display: block;
-    width: 100%;
-    transform: translate(0%, -100%);
-    z-index: -1;
-}
-nav > ul > li:hover  ul {
-    transform: translate(0%,0%);
-}
+
+
 main {
     background-color: grey;
     color: black;
