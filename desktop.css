@@ -46,6 +46,17 @@ nav > ul > li:hover ul {
     display: block;
 }
 
+a{
+    color: black;
+}
+a:hover{
+    color: white;
+}
+
+li {
+    font-weight: bold;
+}
+
 main {
     background-color: grey;
     color: black;
