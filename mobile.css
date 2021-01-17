@@ -41,11 +41,11 @@ nav ul ul {
     width: 100%;
     transform: translate(0, -100%);
     transition: transform 0.5s ease-in;
-    z-index: -1;
+    z-index: 0;
 }
 nav > ul > li:hover ul {
-    transform: translate(0,0)
-    
+    transform: translate(0,0);
+    z-index: -1;
 }
 
 a{
