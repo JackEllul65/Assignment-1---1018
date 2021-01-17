@@ -67,6 +67,9 @@ form {
     grid-gap: 0.5em;
     padding: 20px;
 }
+aside {
+display: none;
+}
 .submit {
     grid-column: 2;
 }
