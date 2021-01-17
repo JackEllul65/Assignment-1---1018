@@ -37,13 +37,15 @@ nav > ul > li{
 
 nav ul ul {
     position: absolute;
-    display: none;
+    display: block;
     background-color: rgb(59, 59, 61);
     padding: 0;
     width: 100%;
+    transition: opacity 0.75s ease-in;
+    opacity: 0;
 }
 nav > ul > li:hover ul {
-    display: block;
+    opacity: 1;
 }
 
 a{
