@@ -68,6 +68,9 @@ form {
     align-items: center;
     grid-gap: 0.5em;
 }
+.submit {
+    grid-column: 2;
+}
 aside {
     background-color: rgb(59, 59, 61);
     grid-area: aside;
