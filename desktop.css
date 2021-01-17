@@ -67,6 +67,7 @@ form {
     grid-template-columns: 25% 70%;
     align-items: center;
     grid-gap: 0.5em;
+    padding: 20px;
 }
 .submit {
     grid-column: 2;
