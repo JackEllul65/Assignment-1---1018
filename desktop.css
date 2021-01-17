@@ -29,3 +29,20 @@ nav ul ul  {
 nav > ul > li:hover  ul {
     transform: translate(0%,0%);
 }
+main {
+    background-color: grey;
+    color: black;
+    grid-area: main;
+}
+aside {
+    background-color: rgb(59, 59, 61);
+    grid-area: aside;
+}
+aside > p {
+
+    padding: 20px;
+}
+footer {
+    background-color: rgb(59, 59, 61);
+    grid-area: footer;
+}
