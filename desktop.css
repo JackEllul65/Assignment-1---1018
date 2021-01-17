@@ -64,6 +64,15 @@ main {
     color: black;
     grid-area: main;
 }
+
+main h1 {
+    padding: 10px;
+}
+
+main p {
+    padding:10px;
+}
+
 form {
     display: grid;
     grid-template-columns: 50% 50%;
